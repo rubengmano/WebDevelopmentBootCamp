@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  /* centes everything that does not have a width */
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  /* center elements with width */
+  /* margin: 0 auto; */
+  font-family: 'Sacramento', cursive;
+  /* Dynamic font size 100% = 16px or 1em = 16px */
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  margin: 50px auto 0 auto;
+  font-size: 2rem;
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.top-container {
+  background-color: #e0ebe8;
+  position: relative;
+  padding-top: 100px;
+}
+
+
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 175px;
+  width: 20%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 190px;
+  top: 280px;
+  width: 22%;
+}
+
+.mountain {
+  width: 70%;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  font-weight: normal;
+  margin: 0 auto 15px auto;
+}
+
+.skill-row {
+  width: 55%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.html-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.java-img {
+  /* just use float for wrapping text */
+  float: right;
+  margin-left: 30px;
+}
+
+.profile {
+  width: 55%;
+  margin: 100px auto;
+  line-height: 2;
+}
+
+hr {
+  width: 45%;
+  border: dotted #81ecec 2px;
+  border-bottom: none;
+  font-size: 1.5rem;
+}
+
+.contact-me {
+  width: 55%;
+  margin: 100px auto;
+  line-height: 2;
+}
+
+.btn {
+  background-color: #11999E;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 15px 0;
+  line-height: 2;
+  color: #EAF6F6;
+}
+
+.footer-link {
+  margin: 0 30px;
+  text-decoration: none;
+  color: #11999E;
+}

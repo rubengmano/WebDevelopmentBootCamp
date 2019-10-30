@@ -1,0 +1,167 @@
+body {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: 'Montserrat-Bold';
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: 'Montserrat-Bold';
+}
+
+p {
+  color: #8f8f8f;
+}
+
+#title {
+  background-color: #ff7979;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Download Button */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-img{
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 25%;
+}
+
+/* Features Icons */
+.fas {
+  color: #ff7979;
+  margin: 0 auto 10px auto;
+}
+
+.fas:hover {
+  color: #ff4c68;
+}
+
+.features-div {
+  text-align: center;
+}
+
+#features {
+  padding: 7% 0;
+  background-color: #fff;
+  position: relative;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ff7979;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 13%;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ff7979;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  margin: 100px;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+/* media query */
+@media (max-width: 1028px) {
+  .title-img{
+    width: 50%;
+    transform: rotate(0deg);
+    position: static;
+  }
+  .container-fluid {
+    text-align: center;
+  }
+}
+
+/* Call to action section */
+
+#cta {
+  background-color: #ff7979;
+  color: #fff;
+  text-align: center;
+  padding: 7% 7%;
+}
+
+.cta-heading {
+  font-size: 3rem;
+}
+
+/* Footer */
+
+#footer {
+  margin: 40px;
+  text-align: center;
+}
+
+.social-networks {
+  display: inline-block;
+}
+
+.sn {
+  margin: 10px;
+  margin-bottom: 20px;
+  color: black;
+}
